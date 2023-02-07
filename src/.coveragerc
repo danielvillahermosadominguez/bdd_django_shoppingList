@@ -1,0 +1,16 @@
+[html]
+    directory = html-coverage
+[run]
+    omit = 
+        features/*
+        integration_tests/*
+        shopping_list_project/*
+        tests/*
+        ../venv/*
+        shoppinglistapi/migrations/*
+        main.py
+        manage.py
+        shoppinglistapi/test.py
+        shoppinglistapi/admin.py
+        shoppinglistapi/apps.py
+        
